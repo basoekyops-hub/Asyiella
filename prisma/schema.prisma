@@ -1,0 +1,266 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  role         String   @default("ADMIN")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Pengawas {
+  id                 String   @id @default(uuid())
+  nama               String
+  gelar              String?
+  nip                String?
+  pangkatGolongan    String?
+  jabatan            String?
+  wilayahKerja       String?
+  kecamatan          String?
+  kabupaten          String?
+  provinsi           String?
+  email              String?
+  noHp               String?
+  foto               String?
+  riwayatPendidikan  String?  @db.Text
+  pengalaman         String?  @db.Text
+  kompetensi         String?  @db.Text
+  tugasFungsi        String?  @db.Text
+  peranPengawas      String?  @db.Text
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+}
+
+model Sekolah {
+  id                 String               @id @default(uuid())
+  nama               String
+  npsn               String               @unique
+  jenjang            String               // TK, SD, dsb.
+  status             String               // Negeri, Swasta
+  alamat             String               @db.Text
+  desaKelurahan      String?
+  kecamatan          String?
+  kabupaten          String?
+  provinsi           String?
+  foto               String?
+  latitude           Float?
+  longitude          Float?
+  mapsUrl            String?
+  kepalaSekolahNama  String?
+  jumlahGuru         Int                  @default(0)
+  jumlahSiswa        Int                  @default(0)
+  telepon            String?
+  email              String?
+  website            String?
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+
+  // Relasi
+  visiMisi           VisiMisi?
+  strukturOrganisasi StrukturOrganisasi[]
+  fasilitas          Fasilitas[]
+  keunggulan         Keunggulan[]
+  kepalaSekolah      KepalaSekolah[]
+  guru               Guru[]
+  prestasi           Prestasi[]
+  berita             Berita[]
+  galeri             Galeri[]
+}
+
+model VisiMisi {
+  id              String   @id @default(uuid())
+  sekolahId       String   @unique
+  sekolah         Sekolah  @relation(fields: [sekolahId], references: [id], onDelete: Cascade)
+  visi            String?  @db.Text
+  misi            String?  @db.Text
+  tujuan          String?  @db.Text
+  programUnggulan String?  @db.Text
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model StrukturOrganisasi {
+  id          String   @id @default(uuid())
+  sekolahId   String
+  sekolah     Sekolah  @relation(fields: [sekolahId], references: [id], onDelete: Cascade)
+  nama        String
+  jabatan     String
+  bagian      String?
+  foto        String?
+  urutan      Int      @default(0)
+  keterangan  String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Fasilitas {
+  id          String   @id @default(uuid())
+  sekolahId   String
+  sekolah     Sekolah  @relation(fields: [sekolahId], references: [id], onDelete: Cascade)
+  nama        String
+  deskripsi   String?  @db.Text
+  foto        String?
+  kondisi     String?  // Baik, Rusak Ringan, Rusak Berat
+  jumlah      Int      @default(1)
+  unit        String   @default("Unit")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Keunggulan {
+  id          String   @id @default(uuid())
+  sekolahId   String
+  sekolah     Sekolah  @relation(fields: [sekolahId], references: [id], onDelete: Cascade)
+  judul       String
+  kategori    String   // Akademik, Literasi, Karakter, Olahraga, dsb.
+  deskripsi   String   @db.Text
+  icon        String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model KepalaSekolah {
+  id          String   @id @default(uuid())
+  sekolahId   String
+  sekolah     Sekolah  @relation(fields: [sekolahId], references: [id], onDelete: Cascade)
+  nama        String
+  nip         String?
+  periode     String   // e.g. "2020 - Sekarang"
+  status      String   @default("Aktif") // Aktif, Purna Bakti, Mutasi
+  foto        String?
+  keterangan  String?
+  sambutan    String?  @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Guru {
+  id                 String   @id @default(uuid())
+  sekolahId          String
+  sekolah            Sekolah  @relation(fields: [sekolahId], references: [id], onDelete: Cascade)
+  nama               String
+  nip                String?
+  nuptk              String?
+  jabatan            String
+  mapel              String?
+  pendidikan         String?
+  statusKepegawaian  String?  // PNS, PPPK, Guru Honorer, GTY
+  email              String?
+  foto               String?
+  tampilkanPublik    Boolean  @default(true)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+}
+
+model Prestasi {
+  id           String   @id @default(uuid())
+  sekolahId    String?
+  sekolah      Sekolah? @relation(fields: [sekolahId], references: [id], onDelete: SetNull)
+  namaPrestasi String
+  tingkat      String   // Sekolah, Kecamatan, Kabupaten, Provinsi, Nasional, Internasional
+  tahun        Int
+  bidang       String   // Akademik, Olahraga, Seni, Literasi, dsb.
+  peraih       String   // Nama Siswa / Guru / Tim
+  keterangan   String?  @db.Text
+  foto         String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Berita {
+  id            String   @id @default(uuid())
+  sekolahId     String?
+  sekolah       Sekolah? @relation(fields: [sekolahId], references: [id], onDelete: SetNull)
+  judul         String
+  slug          String   @unique
+  thumbnail     String?
+  ringkasan     String?  @db.Text
+  konten        String   @db.Text
+  penulis       String   @default("Pengawas")
+  tanggal       DateTime @default(now())
+  kategori      String   // Pengawasan, Pendampingan, Sekolah, Pendidikan, Pengumuman, Kegiatan, Prestasi
+  statusPublish Boolean  @default(true)
+  featured      Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Pengumuman {
+  id            String   @id @default(uuid())
+  judul         String
+  isi           String   @db.Text
+  tanggal       DateTime @default(now())
+  prioritas     String   @default("Normal") // Normal, Penting, Mendesak
+  statusPublish Boolean  @default(true)
+  lampiranUrl   String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Galeri {
+  id          String   @id @default(uuid())
+  sekolahId   String?
+  sekolah     Sekolah? @relation(fields: [sekolahId], references: [id], onDelete: SetNull)
+  judul       String
+  kategori    String   // Pendampingan, Supervisi, Rapat, Pelatihan, Workshop, Kegiatan Sekolah, Prestasi, Kegiatan Siswa, Lainnya
+  jenis       String   @default("FOTO") // FOTO, VIDEO
+  url         String
+  deskripsi   String?  @db.Text
+  tanggal     DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Kontak {
+  id        String   @id @default(uuid())
+  nama      String
+  email     String
+  telepon   String?
+  subjek    String
+  pesan     String   @db.Text
+  status    String   @default("Baru") // Baru, Dibaca, Dibalas, Arsip
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model PengaturanWebsite {
+  id             String   @id @default("default")
+  namaPortal     String   @default("Portal Pengawas Sekolah")
+  subjudul       String   @default("Informasi, Pendampingan, Dokumentasi dan Pengembangan Mutu Satuan Pendidikan")
+  namaPengawas   String   @default("H. Ahmad Syafii, M.Pd.")
+  fotoPengawas   String?
+  nipPengawas    String?  @default("19750812 200003 1 004")
+  jabatan        String   @default("Pengawas Sekolah Madya")
+  jenjang        String   @default("TK / SD")
+  kecamatan      String   @default("Kampar")
+  kabupaten      String   @default("Kampar")
+  provinsi       String   @default("Riau")
+  email          String   @default("digitalpengawas@gmail.com")
+  telepon        String   @default("+62 812-3456-7890")
+  whatsapp       String   @default("6281234567890")
+  alamat         String   @default("Jl. Jenderal Sudirman No. 45, Kompleks Dinas Pendidikan")
+  logo           String?
+  favicon        String?
+  deskripsi      String   @default("Portal resmi pendampingan, informasi, dan pembinaan mutu pendidikan satuan TK/SD.")
+  footer         String   @default("© 2026 Portal Pengawas Sekolah. Hak Cipta Dilindungi.")
+  facebook       String?
+  instagram      String?
+  youtube        String?
+  tiktok         String?
+  mapsUrl        String?
+  latitude       Float?
+  longitude      Float?
+  updatedAt      DateTime @updatedAt
+}

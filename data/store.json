@@ -1,0 +1,2717 @@
+{
+  "admins": [
+    {
+      "id": "admin-001",
+      "email": "admin@pengawassekolah.id",
+      "passwordHash": "$2b$10$DaIrb0vl.mjEtz2h8K2Aoe.MDv85poN2DGNVhiHHhIyleSgTCCoyK",
+      "name": "Administrator Portal",
+      "role": "SUPERADMIN",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-10-01T17:11:40.967Z"
+    },
+    {
+      "id": "admin-002",
+      "email": "yeniariza61@admin.sd.belajar.id",
+      "passwordHash": "$2b$10$DaTTWaStDd39E1aBuYkW.ubQaiiN.wk.FrbzKZMih08ExPoNLZRx.",
+      "name": "Yeni Ariza (Admin Pembina)",
+      "role": "SUPERADMIN",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "pengawas": [
+    {
+      "id": "pengawas-001",
+      "nama": "Basuki ",
+      "gelar": "S.Kom.",
+      "nip": "19790719 201406 1 003",
+      "pangkatGolongan": "Penata / III.C",
+      "jabatan": "Pengawas Sekolah Ahli Muda",
+      "wilayahKerja": "Kecamatan Perhentian Raja",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "email": "digitalpengawas@gmail.com",
+      "noHp": "085761120929",
+      "foto": "/uploads/ChatGPT_Image_26_Sep_2026__17_03_25-1790871915222-2808665.png",
+      "riwayatPendidikan": "S1 STMIK-AMIK Riau",
+      "pengalaman": "1. Guru Kelas SD Negeri (1998 - 2008)\n2. Kepala Sekolah Dasar Inti (2008 - 2017)\n3. Pengawas Sekolah TK/SD (2017 - Sekarang)\n4. Fasilitator Program Sekolah Penggerak Angkatan 2\n5. Narasumber Implementasi Kurikulum Merdeka",
+      "kompetensi": "Supervisi Akademik Berdiferensiasi, Supervisi Manajerial Transformatif, Analisis Rapor Pendidikan, Kepemimpinan Pembelajaran, Penguatan Budaya Mutu & Karakter",
+      "tugasFungsi": "Melaksanakan tugas pengawasan akademik dan manajerial pada satuan pendidikan yang meliputi perencanaan program tahunan/semester, pelaksanaan pendampingan bermakna, pemantauan 8 Standar Nasional Pendidikan, pembinaan kepala sekolah dan guru, evaluasi mutu, serta fasilitasi peningkatan kapasitas berkelanjutan.",
+      "peranPengawas": "1. Pendampingan Satuan Pendidikan yang berfokus pada kebutuhan murid\n2. Supervisi Akademik dan Manajerial transformatif\n3. Pemantauan dan Evaluasi implementasi Kurikulum Merdeka\n4. Pembinaan Kepemimpinan Kepala Sekolah yang visioner\n5. Pendampingan Guru dalam diferensiasi dan asesmen autentik\n6. Penguatan Ekosistem dan Mutu Satuan Pendidikan berkelanjutan",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-10-01T16:25:20.789Z"
+    }
+  ],
+  "pengaturanWebsite": [
+    {
+      "id": "default",
+      "namaPortal": "PORTAL PENGAWAS SEKOLAH",
+      "subjudul": "Informasi, Pendampingan, Dokumentasi dan Pengembangan Mutu Satuan Pendidikan",
+      "namaPengawas": "Basuki, S.Kom",
+      "fotoPengawas": "/uploads/ChatGPT_Image_26_Sep_2026__17_03_25-1790871826003-847499217.png",
+      "nipPengawas": "19790719 201406 1 003",
+      "jabatan": "Pengawas Sekolah Ahli Muda",
+      "jenjang": "TK / SD",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "email": "digitalpengawas@gmail.com",
+      "telepon": "085761120929",
+      "whatsapp": "6281276543210",
+      "alamat": "Jl. Jenderal Sudirman No. 45, Kompleks Dinas Pendidikan",
+      "logo": "/uploads/logo_pengawas_digita2l-1790874361010-51307658.png",
+      "favicon": "/logo-kampar.png",
+      "deskripsi": "Portal resmi pendampingan, informasi, dan pembinaan mutu pendidikan satuan TK/SD untuk mewujudkan pembelajaran yang berpusat pada murid.",
+      "footer": "© 2026 Pengawas Digital Informasi, Pendampingan, Dokumentasi dan Pengembangan Mutu Satuan Pendidikan. Pengawas Sekolah TK/SD. E-Mail : digitalpengawas@gmail.com",
+      "facebook": "https://www.facebook.com/BasukiFaqod",
+      "instagram": "https://www.instagram.com/faqodbasoeky/#",
+      "youtube": "http://www.youtube.com/@pengawasdigital",
+      "tiktok": "https://www.tiktok.com/@basoeky.faqod?lang=id-ID",
+      "mapsUrl": "https://maps.google.com/?q=Tapung+Hilir+Kampar",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "updatedAt": "2026-10-01T17:06:07.058Z"
+    }
+  ],
+  "sekolah": [
+    {
+      "id": "sch-001",
+      "nama": "UPT SD Negeri 009 Sialang Kubang",
+      "npsn": "10400213.",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "Jalan garuda sialang kubang\n",
+      "desaKelurahan": "Sialang Kubang",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "https://maps.google.com/?q=Sialang+Kubang",
+      "kepalaSekolahNama": "JAMARI, S.Pd.",
+      "jumlahGuru": 16,
+      "jumlahSiswa": 285,
+      "telepon": "081267890123",
+      "email": "sdn009sialangkubang@sch.id",
+      "website": "https://sdn009sialangkubang.sch.id",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:20:46.606Z"
+    },
+    {
+      "nama": "UPT SDN 001 Pantairaja",
+      "npsn": "10494637",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "JL. Pekanbaru - Taluk Kuantan  Km.26 Desa Pantai Raja\n",
+      "desaKelurahan": "Pantairaja",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://img.antaranews.com/cache/1200x800/2022/02/16/IMG20211123133038_1.jpg.webp",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "",
+      "kepalaSekolahNama": "NURLAILY, S.Pd.,SD.",
+      "jumlahGuru": 18,
+      "jumlahSiswa": 200,
+      "telepon": "",
+      "email": "",
+      "website": "",
+      "id": "sch-1790407200010",
+      "createdAt": "2026-09-26T07:20:00.010Z",
+      "updatedAt": "2026-09-26T07:20:00.010Z"
+    },
+    {
+      "nama": "UPT SD Negeri 002 Kampung Pinang",
+      "npsn": "10400510",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "Desa Kampung Pinang Kec. Perhentian Raja\n",
+      "desaKelurahan": "Kampung Pinang",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "",
+      "kepalaSekolahNama": "MAIDALINA, S.Pd.",
+      "jumlahGuru": 12,
+      "jumlahSiswa": 200,
+      "telepon": "",
+      "email": "",
+      "website": "",
+      "id": "sch-1790407294483",
+      "createdAt": "2026-09-26T07:21:34.483Z",
+      "updatedAt": "2026-09-26T07:21:34.483Z"
+    },
+    {
+      "nama": "UPT SD Negeri 003 Lubuk Sakat",
+      "npsn": "10494640",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "Jln Raya Pekanbaru teluk kuantan km 23\n",
+      "desaKelurahan": "Lubuk Sakat",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "",
+      "kepalaSekolahNama": "ZULIMAR, S.Pd. SD.",
+      "jumlahGuru": 20,
+      "jumlahSiswa": 300,
+      "telepon": "",
+      "email": "",
+      "website": "",
+      "id": "sch-1790407355938",
+      "createdAt": "2026-09-26T07:22:35.938Z",
+      "updatedAt": "2026-09-26T07:22:35.938Z"
+    },
+    {
+      "nama": "UPT SD Negeri 004 Hangtuah",
+      "npsn": "10400550.",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "Afdeling I PTPN IV Desa Hangtuah\n",
+      "desaKelurahan": "Hangtuah",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "",
+      "kepalaSekolahNama": "SURONO, S.Pd.",
+      "jumlahGuru": 12,
+      "jumlahSiswa": 200,
+      "telepon": "",
+      "email": "",
+      "website": "",
+      "id": "sch-1790407409104",
+      "createdAt": "2026-09-26T07:23:29.104Z",
+      "updatedAt": "2026-09-26T07:23:29.104Z"
+    },
+    {
+      "nama": "UPT SD Negeri 005 Hanagtuah",
+      "npsn": "10400194",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "Jl. Poros SP2 Desa Hangtuah \n",
+      "desaKelurahan": "Hangtuah",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "",
+      "kepalaSekolahNama": "YENI ARIZA, S.Pd.,M.Pd.",
+      "jumlahGuru": 12,
+      "jumlahSiswa": 200,
+      "telepon": "",
+      "email": "",
+      "website": "",
+      "id": "sch-1790407445539",
+      "createdAt": "2026-09-26T07:24:05.539Z",
+      "updatedAt": "2026-09-26T07:24:05.539Z"
+    },
+    {
+      "nama": "UPT SD Negeri 006 Siaalang Kubang",
+      "npsn": "10400198",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "Jl. Garuda No 1 Desa Sialang Kubang Kec. Perhentian Raja Kab. Kampar\n",
+      "desaKelurahan": "Sialang Kubang",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "",
+      "kepalaSekolahNama": "SUKIRNA, S.Pd.",
+      "jumlahGuru": 12,
+      "jumlahSiswa": 200,
+      "telepon": "",
+      "email": "",
+      "website": "",
+      "id": "sch-1790407482212",
+      "createdAt": "2026-09-26T07:24:42.212Z",
+      "updatedAt": "2026-09-26T07:24:42.212Z"
+    },
+    {
+      "nama": "UPT SD Negeri 007 Hangtuah",
+      "npsn": "10400181",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "AFDELING II PTPN IV REG III\n",
+      "desaKelurahan": "Hangtuah",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "",
+      "kepalaSekolahNama": "ITA CONSTANI, S.Pd.",
+      "jumlahGuru": 12,
+      "jumlahSiswa": 200,
+      "telepon": "",
+      "email": "",
+      "website": "",
+      "id": "sch-1790407524075",
+      "createdAt": "2026-09-26T07:25:24.075Z",
+      "updatedAt": "2026-09-26T07:25:24.075Z"
+    },
+    {
+      "nama": "UPT SD Negeri 008 Hangtuah",
+      "npsn": "10400229",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "Jl. Poros Desa Hangtuah Kec. Perhentian Raja\n",
+      "desaKelurahan": "Hangtuah",
+      "kecamatan": "Perhentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "",
+      "kepalaSekolahNama": "YUNITA ABBAS, S.Pd.",
+      "jumlahGuru": 12,
+      "jumlahSiswa": 200,
+      "telepon": "",
+      "email": "",
+      "website": "",
+      "id": "sch-1790407575055",
+      "createdAt": "2026-09-26T07:26:15.055Z",
+      "updatedAt": "2026-09-26T07:26:15.055Z"
+    },
+    {
+      "nama": "UPT SD Negeri 010 Pantairaja",
+      "npsn": "70040120",
+      "jenjang": "SD",
+      "status": "Negeri",
+      "alamat": "Jl. Sport Center Pantai Raja \n",
+      "desaKelurahan": "Pantairaja",
+      "kecamatan": "Perentian Raja",
+      "kabupaten": "Kampar",
+      "provinsi": "Riau",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "latitude": 0.6931,
+      "longitude": 101.2185,
+      "mapsUrl": "",
+      "kepalaSekolahNama": "ELYANA, S.Ag.",
+      "jumlahGuru": 12,
+      "jumlahSiswa": 200,
+      "telepon": "",
+      "email": "",
+      "website": "",
+      "id": "sch-1790407617927",
+      "createdAt": "2026-09-26T07:26:57.927Z",
+      "updatedAt": "2026-09-26T07:26:57.927Z"
+    }
+  ],
+  "visiMisi": [
+    {
+      "id": "vm-001",
+      "sekolahId": "sch-001",
+      "visi": "Terwujudnya peserta didik yang beriman, bertakwa, berakhlak mulia, cerdas, terampil, dan berwawasan lingkungan menuju Profil Pelajar Pancasila yang tangguh.",
+      "misi": "1. Mengembangkan ekosistem religius, toleran, dan santun dalam kehidupan sekolah.\n2. Melaksanakan pembelajaran berdiferensiasi yang memerdekakan potensi minat dan bakat murid.\n3. Meningkatkan kecakapan literasi membaca dan numerasi bernalar kritis secara kontinu.\n4. Menerapkan budaya peduli lingkungan, hemat energi, dan pengolahan sampah mandiri.",
+      "tujuan": "Menghasilkan lulusan yang berkepribadian kokoh, mandiri, siap beradaptasi di era digital, dan mencintai lingkungan hidup.",
+      "programUnggulan": "1. Program Sahabat Buku (Literasi Harian 15 Menit)\n2. Gerakan Numerasi Ceria Berbasis Media Lokal\n3. Adiwiyata Berkelanjutan & Kebun Bibit Siswa\n4. Pembiasaan Karakter Mulia & Sholat Dhuha Terpimpin",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "vm-1790407646341",
+      "sekolahId": "sch-1790407200010",
+      "visi": "",
+      "misi": "",
+      "tujuan": "",
+      "programUnggulan": "",
+      "createdAt": "2026-09-26T07:27:26.341Z",
+      "updatedAt": "2026-09-26T07:27:26.341Z"
+    }
+  ],
+  "strukturOrganisasi": [
+    {
+      "id": "so-001",
+      "sekolahId": "sch-001",
+      "nama": "Drs. Supriyanto, M.Si.",
+      "jabatan": "Kepala Satuan Pendidikan",
+      "bagian": "Pimpinan Satuan Pendidikan",
+      "foto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400",
+      "urutan": 1,
+      "keterangan": "Bertanggung jawab penuh atas manajemen mutu dan supervisi sekolah",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "so-002",
+      "sekolahId": "sch-001",
+      "nama": "Nurul Hidayati, S.Pd.",
+      "jabatan": "Wakil Kepala Sekolah / Kurikulum",
+      "bagian": "Bidang Akademik & Kurikulum",
+      "foto": "",
+      "urutan": 2,
+      "keterangan": "Koordinator kurikulum dan perencanaan pembelajaran",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "so-003",
+      "sekolahId": "sch-001",
+      "nama": "Bambang Irawan, S.Pd.SD.",
+      "jabatan": "Koordinator Kesiswaan & Ekstrakurikuler",
+      "bagian": "Bidang Kesiswaan",
+      "foto": "",
+      "urutan": 3,
+      "keterangan": "Pengembangan minat bakat serta kedisiplinan murid",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "so-004",
+      "sekolahId": "sch-001",
+      "nama": "H. Sudarsono, S.E.",
+      "jabatan": "Ketua Komite Sekolah",
+      "bagian": "Kemitraan & Peran Serta Masyarakat",
+      "foto": "",
+      "urutan": 4,
+      "keterangan": "Menjembatani aspirasi orang tua murid dan masyarakat",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "fasilitas": [
+    {
+      "id": "fas-001",
+      "sekolahId": "sch-001",
+      "nama": "Perpustakaan Ramah Anak",
+      "deskripsi": "Ruang baca berkarpet dengan ribuan buku cerita berjenjang, ensiklopedia edukasi, dan proyektor presentasi.",
+      "foto": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&q=80&w=800",
+      "kondisi": "Baik",
+      "jumlah": 1,
+      "unit": "Ruang",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "fas-002",
+      "sekolahId": "sch-001",
+      "nama": "Ruang Kelas Representatif Ber-AC",
+      "deskripsi": "Ruang belajar yang nyaman dengan ventilasi memadai, smartboard, dan pojok literasi tiap kelas.",
+      "foto": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&q=80&w=800",
+      "kondisi": "Baik",
+      "jumlah": 12,
+      "unit": "Ruang",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "fas-003",
+      "sekolahId": "sch-001",
+      "nama": "Laboratorium Komputer & Chromebook",
+      "deskripsi": "Dilengkapi 30 unit Chromebook bantuan pemerintah untuk pelaksanaan Asesmen Nasional Berbasis Komputer (ANBK).",
+      "foto": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800",
+      "kondisi": "Baik",
+      "jumlah": 1,
+      "unit": "Ruang",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "fas-004",
+      "sekolahId": "sch-001",
+      "nama": "Lapangan Olahraga Serbaguna",
+      "deskripsi": "Lapangan semen untuk kegiatan senam pagi, upacara bendera, futsal, dan bulu tangkis.",
+      "foto": "",
+      "kondisi": "Baik",
+      "jumlah": 1,
+      "unit": "Lapangan",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "fas-005",
+      "sekolahId": "sch-001",
+      "nama": "UKS dan Ruang Bimbingan",
+      "deskripsi": "Fasilitas kesehatan pertolongan pertama bekerjasama dengan Puskesmas Tapung Hilir.",
+      "foto": "",
+      "kondisi": "Baik",
+      "jumlah": 1,
+      "unit": "Ruang",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "keunggulan": [
+    {
+      "id": "keu-001",
+      "sekolahId": "sch-001",
+      "judul": "Pelopor Sekolah Penggerak Mandiri",
+      "kategori": "Akademik",
+      "deskripsi": "Penerapan Kurikulum Merdeka secara menyeluruh dengan penguatan Modul Projek Penguatan Profil Pelajar Pancasila (P5) berbasis kearifan lokal kelapa sawit & seni Melayu.",
+      "icon": "Award",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "keu-002",
+      "sekolahId": "sch-001",
+      "judul": "Budaya Literasi Digital & Pojok Baca Nyaman",
+      "kategori": "Literasi",
+      "deskripsi": "Setiap ruang kelas memiliki pojok baca kaya teks dan kegiatan apresiasi literasi mingguan untuk menumbuhkan kecintaan membaca sejak dini.",
+      "icon": "BookOpen",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "keu-003",
+      "sekolahId": "sch-001",
+      "judul": "Sekolah Ramah Anak & Zero Bullying",
+      "kategori": "Karakter",
+      "deskripsi": "Mekanisme pendampingan psikososial murid, komitmen anti-perundungan terpadu, dan lingkungan bermain yang aman dan inklusif.",
+      "icon": "ShieldCheck",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "kepalaSekolah": [
+    {
+      "id": "ks-001",
+      "sekolahId": "sch-001",
+      "nama": "Drs. Supriyanto, M.Si.",
+      "nip": "19700415 199403 1 003",
+      "periode": "2021 - Sekarang",
+      "status": "Aktif",
+      "foto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400",
+      "keterangan": "Kepala Sekolah Penggerak Angkatan II",
+      "sambutan": "Assalamu’alaikum Warahmatullahi Wabarakatuh.\n\nSelamat datang di Portal Resmi Informasi Satuan Pendidikan kami. Kehadiran portal ini di bawah bimbingan Pengawas Sekolah Pembina merupakan langkah nyata keterbukaan informasi dan akuntabilitas mutu publik. Kami bertekad mewujudkan satuan pendidikan yang ramah, berkarakter, dan senantiasa berorientasi pada kemajuan anak didik kami.",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "ks-002",
+      "sekolahId": "sch-001",
+      "nama": "H. Marjohan, S.Pd.",
+      "nip": "19620108 198303 1 005",
+      "periode": "2014 - 2021",
+      "status": "Purna Bakti",
+      "foto": "",
+      "keterangan": "Peletak dasar pengembangan fasilitas gedung sekolah dan perpustakaan",
+      "sambutan": "",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "guru": [
+    {
+      "id": "guru-001",
+      "sekolahId": "sch-001",
+      "nama": "Nurul Hidayati, S.Pd.",
+      "nip": "19820510 200902 2 007",
+      "nuptk": "4534760662210082",
+      "jabatan": "Guru Kelas V / Koordinator Kurikulum",
+      "mapel": "Guru Kelas SD",
+      "pendidikan": "S1 PGSD Universitas Riau",
+      "statusKepegawaian": "PNS",
+      "email": "nurul.hidayati@sekolah.id",
+      "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400",
+      "tampilkanPublik": true,
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "guru-002",
+      "sekolahId": "sch-001",
+      "nama": "Bambang Irawan, S.Pd.SD.",
+      "nip": "19880320 201101 1 009",
+      "nuptk": "1245766667130103",
+      "jabatan": "Guru PJOK & Pembina Pramuka",
+      "mapel": "Pendidikan Jasmani, Olahraga dan Kesehatan",
+      "pendidikan": "S1 Penjaskesrek Universitas Negeri Padang",
+      "statusKepegawaian": "PPPK",
+      "email": "bambang.irawan@sekolah.id",
+      "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400",
+      "tampilkanPublik": true,
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "guru-003",
+      "sekolahId": "sch-001",
+      "nama": "Dewi Lestari, S.Pd.I.",
+      "nip": "19921104 202012 2 015",
+      "nuptk": "7823901123456781",
+      "jabatan": "Guru Pendidikan Agama Islam",
+      "mapel": "PAI & Budi Pekerti",
+      "pendidikan": "S1 PAI UIN Suska Riau",
+      "statusKepegawaian": "PPPK",
+      "email": "dewi.lestari@sekolah.id",
+      "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400",
+      "tampilkanPublik": true,
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "guru-004",
+      "sekolahId": "sch-001",
+      "nama": "Rian Syahputra, S.Kom.",
+      "nip": "",
+      "nuptk": "9012345678901234",
+      "jabatan": "Tenaga Administrasi & Operator Data Pokok Pendidikan",
+      "mapel": "Operator Dapodik / TIK",
+      "pendidikan": "S1 Sistem Informasi",
+      "statusKepegawaian": "Honorer Sekolah",
+      "email": "rian.ops@sekolah.id",
+      "foto": "",
+      "tampilkanPublik": true,
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "prestasi": [
+    {
+      "id": "pres-001",
+      "sekolahId": "sch-001",
+      "namaPrestasi": "Juara 1 Lomba Budaya Mutu & Literasi Sekolah Dasar",
+      "tingkat": "Kabupaten",
+      "tahun": 2025,
+      "bidang": "Literasi & Manajemen Perpustakaan",
+      "peraih": "Tim Pengembang Literasi UPT SD Negeri 009 Sialang Kubang",
+      "keterangan": "Penilaian portofolio pojok baca digital, jurnal membaca siswa, dan keterlibatan komite sekolah.",
+      "foto": "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&q=80&w=800",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "pres-002",
+      "sekolahId": "sch-001",
+      "namaPrestasi": "Medali Emas Olimpiade Sains Nasional (OSN) Bidang Matematika",
+      "tingkat": "Kabupaten",
+      "tahun": 2025,
+      "bidang": "Akademik / Sains",
+      "peraih": "Muhammad Fadhil Ramadhan (Kelas V)",
+      "keterangan": "Meraih skor tertinggi seleksi OSN tingkat kabupaten dan berhak mewakili ke tingkat Provinsi Riau.",
+      "foto": "https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?auto=format&fit=crop&q=80&w=800",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "berita": [
+    {
+      "id": "berita-001",
+      "sekolahId": "sch-001",
+      "judul": "Supervisi Klinis & Pendampingan Implementasi Asesmen Berkelanjutan",
+      "slug": "supervisi-klinis-pendampingan-asesmen-berkelanjutan",
+      "thumbnail": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800",
+      "ringkasan": "Pengawas Sekolah Pembina melaksanakan supervisi klinis tatap muka di UPT SDN 009 Sialang Kubang guna memastikan diferensiasi asesmen berjalan efektif.",
+      "konten": "Dalam rangka menjaga dan meningkatkan mutu satuan pendidikan binaan, Pengawas Sekolah TK/SD Bapak H. Ahmad Syafii, M.Pd. menggelar kegiatan supervisi klinis dan pendampingan terpadu di UPT SD Negeri 009 Sialang Kubang.\n\nFokus kegiatan meliputi observasi pembelajaran di ruang kelas, bedah perangkat ajar dan instrumen asesmen diagnostik, serta diskusi reflektif bersama dewan guru. Dalam arahannya, pengawas menegaskan pentingnya menempatkan kebutuhan perkembangan murid sebagai acuan utama dalam merancang strategi mengajar.\n\nKepala Sekolah Drs. Supriyanto, M.Si. menyambut positif pendampingan ini yang dinilai sangat menguatkan guru dalam menghadirkan suasana kelas yang inklusif dan memotivasi belajar.",
+      "penulis": "H. Ahmad Syafii, M.Pd.",
+      "tanggal": "2026-09-24T07:10:01.525Z",
+      "kategori": "Pendampingan",
+      "statusPublish": true,
+      "featured": true,
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "pengumuman": [
+    {
+      "id": "peng-001",
+      "judul": "Penyusunan dan Pengunggahan Dokumen KOSP Semester Genap Tahun Ajaran 2026/2027",
+      "isi": "Kepada seluruh Kepala Satuan Pendidikan jenjang TK dan SD se-Kecamatan Tapung Hilir binaan, dimohon untuk mengumpulkan draf Kurikulum Operasional Satuan Pendidikan (KOSP) hasil revisi bersama tim pengembang kurikulum paling lambat tanggal 15 bulan depan untuk ditelaah dan divalidasi oleh Pengawas Pembina.",
+      "tanggal": "2026-09-26T07:10:01.525Z",
+      "prioritas": "Mendesak",
+      "statusPublish": true,
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "peng-002",
+      "judul": "Jadwal Pendampingan Asesmen Bakat Minat dan Penguatan Rapor Pendidikan",
+      "isi": "Kunjungan berkala pengawas pembina ke satuan pendidikan akan dilaksanakan sesuai jadwal terlampir. Pihak sekolah dipersilakan menyiapkan data capaian literasi murid dan rekapitulasi keikutsertaan pelatihan mandiri PMM.",
+      "tanggal": "2026-09-23T07:10:01.525Z",
+      "prioritas": "Penting",
+      "statusPublish": true,
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "galeri": [
+    {
+      "id": "gal-001",
+      "sekolahId": "sch-001",
+      "judul": "Dokumentasi Kunjungan Supervisi Manajerial di SDN 009 Sialang Kubang",
+      "kategori": "Supervisi",
+      "jenis": "FOTO",
+      "url": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=800",
+      "deskripsi": "Sesi telaah administrasi sekolah dan diskusi bersama kepala sekolah mengenai rencana kerja tahunan.",
+      "tanggal": "2026-09-24T07:10:01.525Z",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "gal-002",
+      "sekolahId": "sch-001",
+      "judul": "Apresiasi Pojok Baca Siswa dan Kunjungan Perpustakaan Ramah Anak",
+      "kategori": "Kegiatan Siswa",
+      "jenis": "FOTO",
+      "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800",
+      "deskripsi": "Pengawas berinteraksi langsung dengan murid kelas IV saat jam literasi pagi.",
+      "tanggal": "2026-09-22T07:10:01.525Z",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    },
+    {
+      "id": "gal-004",
+      "sekolahId": "sch-001",
+      "judul": "Video Profil Pembelajaran Berdiferensiasi Satuan Pendidikan Binaan",
+      "kategori": "Pendampingan",
+      "jenis": "VIDEO",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "deskripsi": "Dokumentasi video singkat praktik baik implementasi Kurikulum Merdeka.",
+      "tanggal": "2026-09-11T07:10:01.525Z",
+      "createdAt": "2026-09-26T07:10:01.525Z",
+      "updatedAt": "2026-09-26T07:10:01.525Z"
+    }
+  ],
+  "kontak": [
+    {
+      "id": "knt-001",
+      "nama": "Ahmad Faisal",
+      "email": "faisal.kampar@gmail.com",
+      "telepon": "081234567891",
+      "subjek": "Konsultasi Jadwal Supervisi Mandiri",
+      "pesan": "Mohon arahan Bapak Pengawas terkait persiapan instrumen observasi guru kelas 1 untuk kurikulum merdeka.",
+      "status": "Dibaca",
+      "createdAt": "2026-09-25T07:10:01.525Z",
+      "updatedAt": "2026-09-25T07:10:01.525Z"
+    }
+  ],
+  "visitors": [
+    {
+      "id": "vis-seed-6-0-0",
+      "visitorId": "vis_seed_6_0",
+      "path": "/",
+      "timestamp": "2026-09-25T07:00:00.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-1-0",
+      "visitorId": "vis_seed_6_1",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-25T09:07:11.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-1-1",
+      "visitorId": "vis_seed_6_1",
+      "path": "/sekolah",
+      "timestamp": "2026-09-25T12:20:11.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-2-0",
+      "visitorId": "vis_seed_6_2",
+      "path": "/sekolah",
+      "timestamp": "2026-09-25T11:14:22.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-2-1",
+      "visitorId": "vis_seed_6_2",
+      "path": "/berita",
+      "timestamp": "2026-09-25T14:27:22.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-2-2",
+      "visitorId": "vis_seed_6_2",
+      "path": "/guru",
+      "timestamp": "2026-09-25T17:40:22.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-3-0",
+      "visitorId": "vis_seed_6_3",
+      "path": "/berita",
+      "timestamp": "2026-09-25T13:21:33.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-4-0",
+      "visitorId": "vis_seed_6_4",
+      "path": "/guru",
+      "timestamp": "2026-09-25T15:28:44.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-4-1",
+      "visitorId": "vis_seed_6_4",
+      "path": "/prestasi",
+      "timestamp": "2026-09-25T18:41:44.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-5-0",
+      "visitorId": "vis_seed_6_5",
+      "path": "/prestasi",
+      "timestamp": "2026-09-25T17:35:55.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-5-1",
+      "visitorId": "vis_seed_6_5",
+      "path": "/galeri",
+      "timestamp": "2026-09-25T20:48:55.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-5-2",
+      "visitorId": "vis_seed_6_5",
+      "path": "/kontak",
+      "timestamp": "2026-09-25T09:01:55.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-6-0",
+      "visitorId": "vis_seed_6_6",
+      "path": "/galeri",
+      "timestamp": "2026-09-25T19:42:06.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-7-0",
+      "visitorId": "vis_seed_6_7",
+      "path": "/kontak",
+      "timestamp": "2026-09-25T07:49:17.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-7-1",
+      "visitorId": "vis_seed_6_7",
+      "path": "/",
+      "timestamp": "2026-09-25T10:02:17.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-8-0",
+      "visitorId": "vis_seed_6_8",
+      "path": "/",
+      "timestamp": "2026-09-25T09:56:28.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-8-1",
+      "visitorId": "vis_seed_6_8",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-25T12:09:28.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-8-2",
+      "visitorId": "vis_seed_6_8",
+      "path": "/sekolah",
+      "timestamp": "2026-09-25T15:22:28.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-9-0",
+      "visitorId": "vis_seed_6_9",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-25T11:03:39.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-10-0",
+      "visitorId": "vis_seed_6_10",
+      "path": "/sekolah",
+      "timestamp": "2026-09-25T13:10:50.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-10-1",
+      "visitorId": "vis_seed_6_10",
+      "path": "/berita",
+      "timestamp": "2026-09-25T16:23:50.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-11-0",
+      "visitorId": "vis_seed_6_11",
+      "path": "/berita",
+      "timestamp": "2026-09-25T15:17:01.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-11-1",
+      "visitorId": "vis_seed_6_11",
+      "path": "/guru",
+      "timestamp": "2026-09-25T18:30:01.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-11-2",
+      "visitorId": "vis_seed_6_11",
+      "path": "/prestasi",
+      "timestamp": "2026-09-25T07:43:01.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-6-12-0",
+      "visitorId": "vis_seed_6_12",
+      "path": "/guru",
+      "timestamp": "2026-09-25T17:24:12.113Z",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "vis-seed-5-0-0",
+      "visitorId": "vis_seed_5_0",
+      "path": "/",
+      "timestamp": "2026-09-26T07:00:00.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-0-1",
+      "visitorId": "vis_seed_5_0",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-26T10:13:00.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-0-2",
+      "visitorId": "vis_seed_5_0",
+      "path": "/sekolah",
+      "timestamp": "2026-09-26T13:26:00.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-1-0",
+      "visitorId": "vis_seed_5_1",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-26T09:07:11.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-2-0",
+      "visitorId": "vis_seed_5_2",
+      "path": "/sekolah",
+      "timestamp": "2026-09-26T11:14:22.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-2-1",
+      "visitorId": "vis_seed_5_2",
+      "path": "/berita",
+      "timestamp": "2026-09-26T14:27:22.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-3-0",
+      "visitorId": "vis_seed_5_3",
+      "path": "/berita",
+      "timestamp": "2026-09-26T13:21:33.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-3-1",
+      "visitorId": "vis_seed_5_3",
+      "path": "/guru",
+      "timestamp": "2026-09-26T16:34:33.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-3-2",
+      "visitorId": "vis_seed_5_3",
+      "path": "/prestasi",
+      "timestamp": "2026-09-26T19:47:33.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-4-0",
+      "visitorId": "vis_seed_5_4",
+      "path": "/guru",
+      "timestamp": "2026-09-26T15:28:44.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-5-0",
+      "visitorId": "vis_seed_5_5",
+      "path": "/prestasi",
+      "timestamp": "2026-09-26T17:35:55.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-5-1",
+      "visitorId": "vis_seed_5_5",
+      "path": "/galeri",
+      "timestamp": "2026-09-26T20:48:55.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-6-0",
+      "visitorId": "vis_seed_5_6",
+      "path": "/galeri",
+      "timestamp": "2026-09-26T19:42:06.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-6-1",
+      "visitorId": "vis_seed_5_6",
+      "path": "/kontak",
+      "timestamp": "2026-09-26T08:55:06.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-6-2",
+      "visitorId": "vis_seed_5_6",
+      "path": "/",
+      "timestamp": "2026-09-26T11:08:06.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-7-0",
+      "visitorId": "vis_seed_5_7",
+      "path": "/kontak",
+      "timestamp": "2026-09-26T07:49:17.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-8-0",
+      "visitorId": "vis_seed_5_8",
+      "path": "/",
+      "timestamp": "2026-09-26T09:56:28.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-8-1",
+      "visitorId": "vis_seed_5_8",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-26T12:09:28.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-9-0",
+      "visitorId": "vis_seed_5_9",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-26T11:03:39.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-9-1",
+      "visitorId": "vis_seed_5_9",
+      "path": "/sekolah",
+      "timestamp": "2026-09-26T14:16:39.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-9-2",
+      "visitorId": "vis_seed_5_9",
+      "path": "/berita",
+      "timestamp": "2026-09-26T17:29:39.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-10-0",
+      "visitorId": "vis_seed_5_10",
+      "path": "/sekolah",
+      "timestamp": "2026-09-26T13:10:50.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-11-0",
+      "visitorId": "vis_seed_5_11",
+      "path": "/berita",
+      "timestamp": "2026-09-26T15:17:01.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-11-1",
+      "visitorId": "vis_seed_5_11",
+      "path": "/guru",
+      "timestamp": "2026-09-26T18:30:01.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-12-0",
+      "visitorId": "vis_seed_5_12",
+      "path": "/guru",
+      "timestamp": "2026-09-26T17:24:12.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-12-1",
+      "visitorId": "vis_seed_5_12",
+      "path": "/prestasi",
+      "timestamp": "2026-09-26T20:37:12.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-12-2",
+      "visitorId": "vis_seed_5_12",
+      "path": "/galeri",
+      "timestamp": "2026-09-26T09:50:12.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-13-0",
+      "visitorId": "vis_seed_5_13",
+      "path": "/prestasi",
+      "timestamp": "2026-09-26T19:31:23.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-14-0",
+      "visitorId": "vis_seed_5_14",
+      "path": "/galeri",
+      "timestamp": "2026-09-26T07:38:34.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-14-1",
+      "visitorId": "vis_seed_5_14",
+      "path": "/kontak",
+      "timestamp": "2026-09-26T10:51:34.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-15-0",
+      "visitorId": "vis_seed_5_15",
+      "path": "/kontak",
+      "timestamp": "2026-09-26T09:45:45.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-15-1",
+      "visitorId": "vis_seed_5_15",
+      "path": "/",
+      "timestamp": "2026-09-26T12:58:45.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-15-2",
+      "visitorId": "vis_seed_5_15",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-26T15:11:45.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-16-0",
+      "visitorId": "vis_seed_5_16",
+      "path": "/",
+      "timestamp": "2026-09-26T11:52:56.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-17-0",
+      "visitorId": "vis_seed_5_17",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-26T13:59:07.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-17-1",
+      "visitorId": "vis_seed_5_17",
+      "path": "/sekolah",
+      "timestamp": "2026-09-26T16:12:07.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-18-0",
+      "visitorId": "vis_seed_5_18",
+      "path": "/sekolah",
+      "timestamp": "2026-09-26T15:06:18.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-18-1",
+      "visitorId": "vis_seed_5_18",
+      "path": "/berita",
+      "timestamp": "2026-09-26T18:19:18.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-18-2",
+      "visitorId": "vis_seed_5_18",
+      "path": "/guru",
+      "timestamp": "2026-09-26T07:32:18.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-19-0",
+      "visitorId": "vis_seed_5_19",
+      "path": "/berita",
+      "timestamp": "2026-09-26T17:13:29.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-20-0",
+      "visitorId": "vis_seed_5_20",
+      "path": "/guru",
+      "timestamp": "2026-09-26T19:20:40.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-20-1",
+      "visitorId": "vis_seed_5_20",
+      "path": "/prestasi",
+      "timestamp": "2026-09-26T08:33:40.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-21-0",
+      "visitorId": "vis_seed_5_21",
+      "path": "/prestasi",
+      "timestamp": "2026-09-26T07:27:51.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-21-1",
+      "visitorId": "vis_seed_5_21",
+      "path": "/galeri",
+      "timestamp": "2026-09-26T10:40:51.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-21-2",
+      "visitorId": "vis_seed_5_21",
+      "path": "/kontak",
+      "timestamp": "2026-09-26T13:53:51.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-22-0",
+      "visitorId": "vis_seed_5_22",
+      "path": "/galeri",
+      "timestamp": "2026-09-26T09:34:02.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-23-0",
+      "visitorId": "vis_seed_5_23",
+      "path": "/kontak",
+      "timestamp": "2026-09-26T11:41:13.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-23-1",
+      "visitorId": "vis_seed_5_23",
+      "path": "/",
+      "timestamp": "2026-09-26T14:54:13.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-24-0",
+      "visitorId": "vis_seed_5_24",
+      "path": "/",
+      "timestamp": "2026-09-26T13:48:24.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-24-1",
+      "visitorId": "vis_seed_5_24",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-26T16:01:24.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-24-2",
+      "visitorId": "vis_seed_5_24",
+      "path": "/sekolah",
+      "timestamp": "2026-09-26T19:14:24.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-25-0",
+      "visitorId": "vis_seed_5_25",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-26T15:55:35.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-26-0",
+      "visitorId": "vis_seed_5_26",
+      "path": "/sekolah",
+      "timestamp": "2026-09-26T17:02:46.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-26-1",
+      "visitorId": "vis_seed_5_26",
+      "path": "/berita",
+      "timestamp": "2026-09-26T20:15:46.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-27-0",
+      "visitorId": "vis_seed_5_27",
+      "path": "/berita",
+      "timestamp": "2026-09-26T19:09:57.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-27-1",
+      "visitorId": "vis_seed_5_27",
+      "path": "/guru",
+      "timestamp": "2026-09-26T08:22:57.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-27-2",
+      "visitorId": "vis_seed_5_27",
+      "path": "/prestasi",
+      "timestamp": "2026-09-26T11:35:57.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-5-28-0",
+      "visitorId": "vis_seed_5_28",
+      "path": "/guru",
+      "timestamp": "2026-09-26T07:16:08.113Z",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "vis-seed-4-0-0",
+      "visitorId": "vis_seed_4_0",
+      "path": "/",
+      "timestamp": "2026-09-27T07:00:00.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-0-1",
+      "visitorId": "vis_seed_4_0",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-27T10:13:00.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-1-0",
+      "visitorId": "vis_seed_4_1",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-27T09:07:11.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-1-1",
+      "visitorId": "vis_seed_4_1",
+      "path": "/sekolah",
+      "timestamp": "2026-09-27T12:20:11.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-1-2",
+      "visitorId": "vis_seed_4_1",
+      "path": "/berita",
+      "timestamp": "2026-09-27T15:33:11.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-2-0",
+      "visitorId": "vis_seed_4_2",
+      "path": "/sekolah",
+      "timestamp": "2026-09-27T11:14:22.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-3-0",
+      "visitorId": "vis_seed_4_3",
+      "path": "/berita",
+      "timestamp": "2026-09-27T13:21:33.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-3-1",
+      "visitorId": "vis_seed_4_3",
+      "path": "/guru",
+      "timestamp": "2026-09-27T16:34:33.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-4-0",
+      "visitorId": "vis_seed_4_4",
+      "path": "/guru",
+      "timestamp": "2026-09-27T15:28:44.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-4-1",
+      "visitorId": "vis_seed_4_4",
+      "path": "/prestasi",
+      "timestamp": "2026-09-27T18:41:44.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-4-2",
+      "visitorId": "vis_seed_4_4",
+      "path": "/galeri",
+      "timestamp": "2026-09-27T07:54:44.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-5-0",
+      "visitorId": "vis_seed_4_5",
+      "path": "/prestasi",
+      "timestamp": "2026-09-27T17:35:55.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-6-0",
+      "visitorId": "vis_seed_4_6",
+      "path": "/galeri",
+      "timestamp": "2026-09-27T19:42:06.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-6-1",
+      "visitorId": "vis_seed_4_6",
+      "path": "/kontak",
+      "timestamp": "2026-09-27T08:55:06.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-7-0",
+      "visitorId": "vis_seed_4_7",
+      "path": "/kontak",
+      "timestamp": "2026-09-27T07:49:17.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-7-1",
+      "visitorId": "vis_seed_4_7",
+      "path": "/",
+      "timestamp": "2026-09-27T10:02:17.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-7-2",
+      "visitorId": "vis_seed_4_7",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-27T13:15:17.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-8-0",
+      "visitorId": "vis_seed_4_8",
+      "path": "/",
+      "timestamp": "2026-09-27T09:56:28.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-9-0",
+      "visitorId": "vis_seed_4_9",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-27T11:03:39.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-9-1",
+      "visitorId": "vis_seed_4_9",
+      "path": "/sekolah",
+      "timestamp": "2026-09-27T14:16:39.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-10-0",
+      "visitorId": "vis_seed_4_10",
+      "path": "/sekolah",
+      "timestamp": "2026-09-27T13:10:50.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-10-1",
+      "visitorId": "vis_seed_4_10",
+      "path": "/berita",
+      "timestamp": "2026-09-27T16:23:50.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-10-2",
+      "visitorId": "vis_seed_4_10",
+      "path": "/guru",
+      "timestamp": "2026-09-27T19:36:50.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-11-0",
+      "visitorId": "vis_seed_4_11",
+      "path": "/berita",
+      "timestamp": "2026-09-27T15:17:01.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-12-0",
+      "visitorId": "vis_seed_4_12",
+      "path": "/guru",
+      "timestamp": "2026-09-27T17:24:12.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-12-1",
+      "visitorId": "vis_seed_4_12",
+      "path": "/prestasi",
+      "timestamp": "2026-09-27T20:37:12.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-13-0",
+      "visitorId": "vis_seed_4_13",
+      "path": "/prestasi",
+      "timestamp": "2026-09-27T19:31:23.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-13-1",
+      "visitorId": "vis_seed_4_13",
+      "path": "/galeri",
+      "timestamp": "2026-09-27T08:44:23.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-13-2",
+      "visitorId": "vis_seed_4_13",
+      "path": "/kontak",
+      "timestamp": "2026-09-27T11:57:23.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-14-0",
+      "visitorId": "vis_seed_4_14",
+      "path": "/galeri",
+      "timestamp": "2026-09-27T07:38:34.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-15-0",
+      "visitorId": "vis_seed_4_15",
+      "path": "/kontak",
+      "timestamp": "2026-09-27T09:45:45.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-15-1",
+      "visitorId": "vis_seed_4_15",
+      "path": "/",
+      "timestamp": "2026-09-27T12:58:45.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-16-0",
+      "visitorId": "vis_seed_4_16",
+      "path": "/",
+      "timestamp": "2026-09-27T11:52:56.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-16-1",
+      "visitorId": "vis_seed_4_16",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-27T14:05:56.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-16-2",
+      "visitorId": "vis_seed_4_16",
+      "path": "/sekolah",
+      "timestamp": "2026-09-27T17:18:56.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-17-0",
+      "visitorId": "vis_seed_4_17",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-27T13:59:07.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-18-0",
+      "visitorId": "vis_seed_4_18",
+      "path": "/sekolah",
+      "timestamp": "2026-09-27T15:06:18.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-18-1",
+      "visitorId": "vis_seed_4_18",
+      "path": "/berita",
+      "timestamp": "2026-09-27T18:19:18.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-19-0",
+      "visitorId": "vis_seed_4_19",
+      "path": "/berita",
+      "timestamp": "2026-09-27T17:13:29.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-19-1",
+      "visitorId": "vis_seed_4_19",
+      "path": "/guru",
+      "timestamp": "2026-09-27T20:26:29.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-19-2",
+      "visitorId": "vis_seed_4_19",
+      "path": "/prestasi",
+      "timestamp": "2026-09-27T09:39:29.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-20-0",
+      "visitorId": "vis_seed_4_20",
+      "path": "/guru",
+      "timestamp": "2026-09-27T19:20:40.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-21-0",
+      "visitorId": "vis_seed_4_21",
+      "path": "/prestasi",
+      "timestamp": "2026-09-27T07:27:51.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-21-1",
+      "visitorId": "vis_seed_4_21",
+      "path": "/galeri",
+      "timestamp": "2026-09-27T10:40:51.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-22-0",
+      "visitorId": "vis_seed_4_22",
+      "path": "/galeri",
+      "timestamp": "2026-09-27T09:34:02.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-22-1",
+      "visitorId": "vis_seed_4_22",
+      "path": "/kontak",
+      "timestamp": "2026-09-27T12:47:02.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-22-2",
+      "visitorId": "vis_seed_4_22",
+      "path": "/",
+      "timestamp": "2026-09-27T15:00:02.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-4-23-0",
+      "visitorId": "vis_seed_4_23",
+      "path": "/kontak",
+      "timestamp": "2026-09-27T11:41:13.113Z",
+      "date": "2026-09-27"
+    },
+    {
+      "id": "vis-seed-3-0-0",
+      "visitorId": "vis_seed_3_0",
+      "path": "/",
+      "timestamp": "2026-09-28T07:00:00.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-1-0",
+      "visitorId": "vis_seed_3_1",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-28T09:07:11.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-1-1",
+      "visitorId": "vis_seed_3_1",
+      "path": "/sekolah",
+      "timestamp": "2026-09-28T12:20:11.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-2-0",
+      "visitorId": "vis_seed_3_2",
+      "path": "/sekolah",
+      "timestamp": "2026-09-28T11:14:22.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-2-1",
+      "visitorId": "vis_seed_3_2",
+      "path": "/berita",
+      "timestamp": "2026-09-28T14:27:22.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-2-2",
+      "visitorId": "vis_seed_3_2",
+      "path": "/guru",
+      "timestamp": "2026-09-28T17:40:22.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-3-0",
+      "visitorId": "vis_seed_3_3",
+      "path": "/berita",
+      "timestamp": "2026-09-28T13:21:33.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-4-0",
+      "visitorId": "vis_seed_3_4",
+      "path": "/guru",
+      "timestamp": "2026-09-28T15:28:44.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-4-1",
+      "visitorId": "vis_seed_3_4",
+      "path": "/prestasi",
+      "timestamp": "2026-09-28T18:41:44.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-5-0",
+      "visitorId": "vis_seed_3_5",
+      "path": "/prestasi",
+      "timestamp": "2026-09-28T17:35:55.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-5-1",
+      "visitorId": "vis_seed_3_5",
+      "path": "/galeri",
+      "timestamp": "2026-09-28T20:48:55.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-5-2",
+      "visitorId": "vis_seed_3_5",
+      "path": "/kontak",
+      "timestamp": "2026-09-28T09:01:55.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-6-0",
+      "visitorId": "vis_seed_3_6",
+      "path": "/galeri",
+      "timestamp": "2026-09-28T19:42:06.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-7-0",
+      "visitorId": "vis_seed_3_7",
+      "path": "/kontak",
+      "timestamp": "2026-09-28T07:49:17.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-7-1",
+      "visitorId": "vis_seed_3_7",
+      "path": "/",
+      "timestamp": "2026-09-28T10:02:17.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-8-0",
+      "visitorId": "vis_seed_3_8",
+      "path": "/",
+      "timestamp": "2026-09-28T09:56:28.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-8-1",
+      "visitorId": "vis_seed_3_8",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-28T12:09:28.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-8-2",
+      "visitorId": "vis_seed_3_8",
+      "path": "/sekolah",
+      "timestamp": "2026-09-28T15:22:28.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-9-0",
+      "visitorId": "vis_seed_3_9",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-28T11:03:39.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-10-0",
+      "visitorId": "vis_seed_3_10",
+      "path": "/sekolah",
+      "timestamp": "2026-09-28T13:10:50.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-3-10-1",
+      "visitorId": "vis_seed_3_10",
+      "path": "/berita",
+      "timestamp": "2026-09-28T16:23:50.113Z",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "vis-seed-2-0-0",
+      "visitorId": "vis_seed_2_0",
+      "path": "/",
+      "timestamp": "2026-09-29T07:00:00.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-0-1",
+      "visitorId": "vis_seed_2_0",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-29T10:13:00.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-0-2",
+      "visitorId": "vis_seed_2_0",
+      "path": "/sekolah",
+      "timestamp": "2026-09-29T13:26:00.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-1-0",
+      "visitorId": "vis_seed_2_1",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-29T09:07:11.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-2-0",
+      "visitorId": "vis_seed_2_2",
+      "path": "/sekolah",
+      "timestamp": "2026-09-29T11:14:22.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-2-1",
+      "visitorId": "vis_seed_2_2",
+      "path": "/berita",
+      "timestamp": "2026-09-29T14:27:22.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-3-0",
+      "visitorId": "vis_seed_2_3",
+      "path": "/berita",
+      "timestamp": "2026-09-29T13:21:33.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-3-1",
+      "visitorId": "vis_seed_2_3",
+      "path": "/guru",
+      "timestamp": "2026-09-29T16:34:33.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-3-2",
+      "visitorId": "vis_seed_2_3",
+      "path": "/prestasi",
+      "timestamp": "2026-09-29T19:47:33.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-4-0",
+      "visitorId": "vis_seed_2_4",
+      "path": "/guru",
+      "timestamp": "2026-09-29T15:28:44.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-5-0",
+      "visitorId": "vis_seed_2_5",
+      "path": "/prestasi",
+      "timestamp": "2026-09-29T17:35:55.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-5-1",
+      "visitorId": "vis_seed_2_5",
+      "path": "/galeri",
+      "timestamp": "2026-09-29T20:48:55.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-6-0",
+      "visitorId": "vis_seed_2_6",
+      "path": "/galeri",
+      "timestamp": "2026-09-29T19:42:06.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-6-1",
+      "visitorId": "vis_seed_2_6",
+      "path": "/kontak",
+      "timestamp": "2026-09-29T08:55:06.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-6-2",
+      "visitorId": "vis_seed_2_6",
+      "path": "/",
+      "timestamp": "2026-09-29T11:08:06.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-7-0",
+      "visitorId": "vis_seed_2_7",
+      "path": "/kontak",
+      "timestamp": "2026-09-29T07:49:17.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-8-0",
+      "visitorId": "vis_seed_2_8",
+      "path": "/",
+      "timestamp": "2026-09-29T09:56:28.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-8-1",
+      "visitorId": "vis_seed_2_8",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-29T12:09:28.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-9-0",
+      "visitorId": "vis_seed_2_9",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-29T11:03:39.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-9-1",
+      "visitorId": "vis_seed_2_9",
+      "path": "/sekolah",
+      "timestamp": "2026-09-29T14:16:39.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-9-2",
+      "visitorId": "vis_seed_2_9",
+      "path": "/berita",
+      "timestamp": "2026-09-29T17:29:39.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-10-0",
+      "visitorId": "vis_seed_2_10",
+      "path": "/sekolah",
+      "timestamp": "2026-09-29T13:10:50.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-11-0",
+      "visitorId": "vis_seed_2_11",
+      "path": "/berita",
+      "timestamp": "2026-09-29T15:17:01.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-11-1",
+      "visitorId": "vis_seed_2_11",
+      "path": "/guru",
+      "timestamp": "2026-09-29T18:30:01.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-12-0",
+      "visitorId": "vis_seed_2_12",
+      "path": "/guru",
+      "timestamp": "2026-09-29T17:24:12.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-12-1",
+      "visitorId": "vis_seed_2_12",
+      "path": "/prestasi",
+      "timestamp": "2026-09-29T20:37:12.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-12-2",
+      "visitorId": "vis_seed_2_12",
+      "path": "/galeri",
+      "timestamp": "2026-09-29T09:50:12.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-13-0",
+      "visitorId": "vis_seed_2_13",
+      "path": "/prestasi",
+      "timestamp": "2026-09-29T19:31:23.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-14-0",
+      "visitorId": "vis_seed_2_14",
+      "path": "/galeri",
+      "timestamp": "2026-09-29T07:38:34.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-14-1",
+      "visitorId": "vis_seed_2_14",
+      "path": "/kontak",
+      "timestamp": "2026-09-29T10:51:34.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-15-0",
+      "visitorId": "vis_seed_2_15",
+      "path": "/kontak",
+      "timestamp": "2026-09-29T09:45:45.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-15-1",
+      "visitorId": "vis_seed_2_15",
+      "path": "/",
+      "timestamp": "2026-09-29T12:58:45.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-15-2",
+      "visitorId": "vis_seed_2_15",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-29T15:11:45.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-16-0",
+      "visitorId": "vis_seed_2_16",
+      "path": "/",
+      "timestamp": "2026-09-29T11:52:56.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-17-0",
+      "visitorId": "vis_seed_2_17",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-29T13:59:07.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-17-1",
+      "visitorId": "vis_seed_2_17",
+      "path": "/sekolah",
+      "timestamp": "2026-09-29T16:12:07.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-18-0",
+      "visitorId": "vis_seed_2_18",
+      "path": "/sekolah",
+      "timestamp": "2026-09-29T15:06:18.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-18-1",
+      "visitorId": "vis_seed_2_18",
+      "path": "/berita",
+      "timestamp": "2026-09-29T18:19:18.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-18-2",
+      "visitorId": "vis_seed_2_18",
+      "path": "/guru",
+      "timestamp": "2026-09-29T07:32:18.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-19-0",
+      "visitorId": "vis_seed_2_19",
+      "path": "/berita",
+      "timestamp": "2026-09-29T17:13:29.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-20-0",
+      "visitorId": "vis_seed_2_20",
+      "path": "/guru",
+      "timestamp": "2026-09-29T19:20:40.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-20-1",
+      "visitorId": "vis_seed_2_20",
+      "path": "/prestasi",
+      "timestamp": "2026-09-29T08:33:40.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-21-0",
+      "visitorId": "vis_seed_2_21",
+      "path": "/prestasi",
+      "timestamp": "2026-09-29T07:27:51.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-21-1",
+      "visitorId": "vis_seed_2_21",
+      "path": "/galeri",
+      "timestamp": "2026-09-29T10:40:51.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-2-21-2",
+      "visitorId": "vis_seed_2_21",
+      "path": "/kontak",
+      "timestamp": "2026-09-29T13:53:51.113Z",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "vis-seed-1-0-0",
+      "visitorId": "vis_seed_1_0",
+      "path": "/",
+      "timestamp": "2026-09-30T07:00:00.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-0-1",
+      "visitorId": "vis_seed_1_0",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-30T10:13:00.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-1-0",
+      "visitorId": "vis_seed_1_1",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-30T09:07:11.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-1-1",
+      "visitorId": "vis_seed_1_1",
+      "path": "/sekolah",
+      "timestamp": "2026-09-30T12:20:11.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-1-2",
+      "visitorId": "vis_seed_1_1",
+      "path": "/berita",
+      "timestamp": "2026-09-30T15:33:11.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-2-0",
+      "visitorId": "vis_seed_1_2",
+      "path": "/sekolah",
+      "timestamp": "2026-09-30T11:14:22.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-3-0",
+      "visitorId": "vis_seed_1_3",
+      "path": "/berita",
+      "timestamp": "2026-09-30T13:21:33.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-3-1",
+      "visitorId": "vis_seed_1_3",
+      "path": "/guru",
+      "timestamp": "2026-09-30T16:34:33.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-4-0",
+      "visitorId": "vis_seed_1_4",
+      "path": "/guru",
+      "timestamp": "2026-09-30T15:28:44.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-4-1",
+      "visitorId": "vis_seed_1_4",
+      "path": "/prestasi",
+      "timestamp": "2026-09-30T18:41:44.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-4-2",
+      "visitorId": "vis_seed_1_4",
+      "path": "/galeri",
+      "timestamp": "2026-09-30T07:54:44.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-5-0",
+      "visitorId": "vis_seed_1_5",
+      "path": "/prestasi",
+      "timestamp": "2026-09-30T17:35:55.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-6-0",
+      "visitorId": "vis_seed_1_6",
+      "path": "/galeri",
+      "timestamp": "2026-09-30T19:42:06.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-6-1",
+      "visitorId": "vis_seed_1_6",
+      "path": "/kontak",
+      "timestamp": "2026-09-30T08:55:06.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-7-0",
+      "visitorId": "vis_seed_1_7",
+      "path": "/kontak",
+      "timestamp": "2026-09-30T07:49:17.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-7-1",
+      "visitorId": "vis_seed_1_7",
+      "path": "/",
+      "timestamp": "2026-09-30T10:02:17.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-7-2",
+      "visitorId": "vis_seed_1_7",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-30T13:15:17.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-8-0",
+      "visitorId": "vis_seed_1_8",
+      "path": "/",
+      "timestamp": "2026-09-30T09:56:28.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-9-0",
+      "visitorId": "vis_seed_1_9",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-30T11:03:39.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-9-1",
+      "visitorId": "vis_seed_1_9",
+      "path": "/sekolah",
+      "timestamp": "2026-09-30T14:16:39.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-10-0",
+      "visitorId": "vis_seed_1_10",
+      "path": "/sekolah",
+      "timestamp": "2026-09-30T13:10:50.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-10-1",
+      "visitorId": "vis_seed_1_10",
+      "path": "/berita",
+      "timestamp": "2026-09-30T16:23:50.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-10-2",
+      "visitorId": "vis_seed_1_10",
+      "path": "/guru",
+      "timestamp": "2026-09-30T19:36:50.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-11-0",
+      "visitorId": "vis_seed_1_11",
+      "path": "/berita",
+      "timestamp": "2026-09-30T15:17:01.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-12-0",
+      "visitorId": "vis_seed_1_12",
+      "path": "/guru",
+      "timestamp": "2026-09-30T17:24:12.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-12-1",
+      "visitorId": "vis_seed_1_12",
+      "path": "/prestasi",
+      "timestamp": "2026-09-30T20:37:12.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-13-0",
+      "visitorId": "vis_seed_1_13",
+      "path": "/prestasi",
+      "timestamp": "2026-09-30T19:31:23.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-13-1",
+      "visitorId": "vis_seed_1_13",
+      "path": "/galeri",
+      "timestamp": "2026-09-30T08:44:23.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-13-2",
+      "visitorId": "vis_seed_1_13",
+      "path": "/kontak",
+      "timestamp": "2026-09-30T11:57:23.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-14-0",
+      "visitorId": "vis_seed_1_14",
+      "path": "/galeri",
+      "timestamp": "2026-09-30T07:38:34.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-15-0",
+      "visitorId": "vis_seed_1_15",
+      "path": "/kontak",
+      "timestamp": "2026-09-30T09:45:45.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-15-1",
+      "visitorId": "vis_seed_1_15",
+      "path": "/",
+      "timestamp": "2026-09-30T12:58:45.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-16-0",
+      "visitorId": "vis_seed_1_16",
+      "path": "/",
+      "timestamp": "2026-09-30T11:52:56.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-16-1",
+      "visitorId": "vis_seed_1_16",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-30T14:05:56.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-16-2",
+      "visitorId": "vis_seed_1_16",
+      "path": "/sekolah",
+      "timestamp": "2026-09-30T17:18:56.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-17-0",
+      "visitorId": "vis_seed_1_17",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-30T13:59:07.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-18-0",
+      "visitorId": "vis_seed_1_18",
+      "path": "/sekolah",
+      "timestamp": "2026-09-30T15:06:18.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-18-1",
+      "visitorId": "vis_seed_1_18",
+      "path": "/berita",
+      "timestamp": "2026-09-30T18:19:18.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-19-0",
+      "visitorId": "vis_seed_1_19",
+      "path": "/berita",
+      "timestamp": "2026-09-30T17:13:29.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-19-1",
+      "visitorId": "vis_seed_1_19",
+      "path": "/guru",
+      "timestamp": "2026-09-30T20:26:29.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-19-2",
+      "visitorId": "vis_seed_1_19",
+      "path": "/prestasi",
+      "timestamp": "2026-09-30T09:39:29.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-20-0",
+      "visitorId": "vis_seed_1_20",
+      "path": "/guru",
+      "timestamp": "2026-09-30T19:20:40.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-21-0",
+      "visitorId": "vis_seed_1_21",
+      "path": "/prestasi",
+      "timestamp": "2026-09-30T07:27:51.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-21-1",
+      "visitorId": "vis_seed_1_21",
+      "path": "/galeri",
+      "timestamp": "2026-09-30T10:40:51.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-22-0",
+      "visitorId": "vis_seed_1_22",
+      "path": "/galeri",
+      "timestamp": "2026-09-30T09:34:02.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-22-1",
+      "visitorId": "vis_seed_1_22",
+      "path": "/kontak",
+      "timestamp": "2026-09-30T12:47:02.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-22-2",
+      "visitorId": "vis_seed_1_22",
+      "path": "/",
+      "timestamp": "2026-09-30T15:00:02.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-23-0",
+      "visitorId": "vis_seed_1_23",
+      "path": "/kontak",
+      "timestamp": "2026-09-30T11:41:13.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-24-0",
+      "visitorId": "vis_seed_1_24",
+      "path": "/",
+      "timestamp": "2026-09-30T13:48:24.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-24-1",
+      "visitorId": "vis_seed_1_24",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-30T16:01:24.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-25-0",
+      "visitorId": "vis_seed_1_25",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-09-30T15:55:35.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-25-1",
+      "visitorId": "vis_seed_1_25",
+      "path": "/sekolah",
+      "timestamp": "2026-09-30T18:08:35.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-25-2",
+      "visitorId": "vis_seed_1_25",
+      "path": "/berita",
+      "timestamp": "2026-09-30T07:21:35.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-1-26-0",
+      "visitorId": "vis_seed_1_26",
+      "path": "/sekolah",
+      "timestamp": "2026-09-30T17:02:46.113Z",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "vis-seed-0-0-0",
+      "visitorId": "vis_seed_0_0",
+      "path": "/",
+      "timestamp": "2026-10-01T07:00:00.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-1-0",
+      "visitorId": "vis_seed_0_1",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-10-01T09:07:11.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-1-1",
+      "visitorId": "vis_seed_0_1",
+      "path": "/sekolah",
+      "timestamp": "2026-10-01T12:20:11.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-2-0",
+      "visitorId": "vis_seed_0_2",
+      "path": "/sekolah",
+      "timestamp": "2026-10-01T11:14:22.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-2-1",
+      "visitorId": "vis_seed_0_2",
+      "path": "/berita",
+      "timestamp": "2026-10-01T14:27:22.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-2-2",
+      "visitorId": "vis_seed_0_2",
+      "path": "/guru",
+      "timestamp": "2026-10-01T17:40:22.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-3-0",
+      "visitorId": "vis_seed_0_3",
+      "path": "/berita",
+      "timestamp": "2026-10-01T13:21:33.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-4-0",
+      "visitorId": "vis_seed_0_4",
+      "path": "/guru",
+      "timestamp": "2026-10-01T15:28:44.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-4-1",
+      "visitorId": "vis_seed_0_4",
+      "path": "/prestasi",
+      "timestamp": "2026-10-01T18:41:44.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-5-0",
+      "visitorId": "vis_seed_0_5",
+      "path": "/prestasi",
+      "timestamp": "2026-10-01T17:35:55.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-5-1",
+      "visitorId": "vis_seed_0_5",
+      "path": "/galeri",
+      "timestamp": "2026-10-01T20:48:55.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-5-2",
+      "visitorId": "vis_seed_0_5",
+      "path": "/kontak",
+      "timestamp": "2026-10-01T09:01:55.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-6-0",
+      "visitorId": "vis_seed_0_6",
+      "path": "/galeri",
+      "timestamp": "2026-10-01T19:42:06.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-7-0",
+      "visitorId": "vis_seed_0_7",
+      "path": "/kontak",
+      "timestamp": "2026-10-01T07:49:17.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-7-1",
+      "visitorId": "vis_seed_0_7",
+      "path": "/",
+      "timestamp": "2026-10-01T10:02:17.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-8-0",
+      "visitorId": "vis_seed_0_8",
+      "path": "/",
+      "timestamp": "2026-10-01T09:56:28.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-8-1",
+      "visitorId": "vis_seed_0_8",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-10-01T12:09:28.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-8-2",
+      "visitorId": "vis_seed_0_8",
+      "path": "/sekolah",
+      "timestamp": "2026-10-01T15:22:28.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-9-0",
+      "visitorId": "vis_seed_0_9",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-10-01T11:03:39.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-10-0",
+      "visitorId": "vis_seed_0_10",
+      "path": "/sekolah",
+      "timestamp": "2026-10-01T13:10:50.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-10-1",
+      "visitorId": "vis_seed_0_10",
+      "path": "/berita",
+      "timestamp": "2026-10-01T16:23:50.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-11-0",
+      "visitorId": "vis_seed_0_11",
+      "path": "/berita",
+      "timestamp": "2026-10-01T15:17:01.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-11-1",
+      "visitorId": "vis_seed_0_11",
+      "path": "/guru",
+      "timestamp": "2026-10-01T18:30:01.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-11-2",
+      "visitorId": "vis_seed_0_11",
+      "path": "/prestasi",
+      "timestamp": "2026-10-01T07:43:01.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-12-0",
+      "visitorId": "vis_seed_0_12",
+      "path": "/guru",
+      "timestamp": "2026-10-01T17:24:12.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-13-0",
+      "visitorId": "vis_seed_0_13",
+      "path": "/prestasi",
+      "timestamp": "2026-10-01T19:31:23.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-13-1",
+      "visitorId": "vis_seed_0_13",
+      "path": "/galeri",
+      "timestamp": "2026-10-01T08:44:23.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-14-0",
+      "visitorId": "vis_seed_0_14",
+      "path": "/galeri",
+      "timestamp": "2026-10-01T07:38:34.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-14-1",
+      "visitorId": "vis_seed_0_14",
+      "path": "/kontak",
+      "timestamp": "2026-10-01T10:51:34.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-14-2",
+      "visitorId": "vis_seed_0_14",
+      "path": "/",
+      "timestamp": "2026-10-01T13:04:34.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-15-0",
+      "visitorId": "vis_seed_0_15",
+      "path": "/kontak",
+      "timestamp": "2026-10-01T09:45:45.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-16-0",
+      "visitorId": "vis_seed_0_16",
+      "path": "/",
+      "timestamp": "2026-10-01T11:52:56.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-16-1",
+      "visitorId": "vis_seed_0_16",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-10-01T14:05:56.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-17-0",
+      "visitorId": "vis_seed_0_17",
+      "path": "/profil-pengawas",
+      "timestamp": "2026-10-01T13:59:07.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-17-1",
+      "visitorId": "vis_seed_0_17",
+      "path": "/sekolah",
+      "timestamp": "2026-10-01T16:12:07.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-seed-0-17-2",
+      "visitorId": "vis_seed_0_17",
+      "path": "/berita",
+      "timestamp": "2026-10-01T19:25:07.113Z",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "vis-1790875980018-xu020",
+      "visitorId": "test_vis_123",
+      "path": "/sekolah",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-10-01T17:33:00.018Z",
+      "date": "2026-10-01"
+    }
+  ]
+}
